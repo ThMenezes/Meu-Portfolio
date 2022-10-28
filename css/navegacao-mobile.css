@@ -1,0 +1,78 @@
+.menu-mobile {
+    width: 250px;
+    height: 400px;
+    background-image: linear-gradient(90deg, #2f2325, #8e5d52);
+    position: fixed;
+    top: 8px;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+}
+
+.display-menu {
+    display: none;
+}
+
+.logo-menu {
+    display: none;
+    position: absolute;    
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+}
+
+.logo-x {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    transition: 0.3s opacity;
+}
+
+.logo-menu:hover, .logo-x:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.navegacao-mobile {
+    position: relative;
+}
+
+.navegacao-mobile ul {
+    position: absolute;
+    top: 100px;
+    left: 48px;
+}
+
+.navegacao-mobile li {
+    margin-bottom: 16px;
+}
+
+.navegacao-mobile li::before {
+    content: "•";
+    color: #FFFFFF;
+}
+
+.navegacao-mobile a {
+    text-decoration: none; 
+    transition: 0.3s color;
+    margin-left: 8px;
+}
+
+.navegacao-mobile a:hover {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1040px) {
+    .logo-menu {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width:1040px) {
+    .menu-mobile {
+        display: none;
+    }
+}
+
