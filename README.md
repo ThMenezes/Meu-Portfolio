@@ -5,6 +5,10 @@
 ![tela portfólio](https://user-images.githubusercontent.com/109250801/198654064-558656dc-d9dc-48ba-8bfc-0ce1a4f95e4b.png)
 
 
+## Acesse aqui:
+https://thmenezes.github.io/Meu-Portfolio/
+
+
 <p> Currículo desenvolvido pelo projeto do curso Empower Code for Women - Zenvia com parceria com Alura Include </p>
 
 ## Linguagens utilizadas:
