@@ -94,12 +94,11 @@ main div {
 }
 
 .texto-sobre-mim {
-    display: inline-block;
+    display: inline;
     width: 480px;
     vertical-align: top;
     position: absolute;
-    right: 0;
-    top: 48px;
+    right: 0;    
 }
 
 .titulo {
