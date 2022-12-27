@@ -1,6 +1,6 @@
 .menu-mobile {
     width: 250px;
-    height: 400px;
+    height: 380px;
     background-image: linear-gradient(90deg, #2f2325, #8e5d52);
     position: fixed;
     top: 8px;
@@ -51,17 +51,18 @@
 
 .navegacao-mobile li::before {
     content: "•";
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .navegacao-mobile a {
-    text-decoration: none; 
+    text-decoration: none;
+    color: var(--text-color); 
     transition: 0.3s color;
     margin-left: 8px;
 }
 
 .navegacao-mobile a:hover {
-    color: #FFFFFF;
+    color: var(--primary-color);
 }
 
 @media screen and (max-width:1040px) {

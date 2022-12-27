@@ -4,7 +4,7 @@ header {
     left: 0;
     right: 0;
     background-image: linear-gradient(90deg,#2f2325, #8e5d52);  
-    color: #ffffff;
+    color: var(--text-color);
     z-index: 1;
 }
 
@@ -25,15 +25,15 @@ nav li:not(:last-child):after {
 
 nav li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--text-color);
     transition: 0.3s color;
 }
 
 nav li a:hover{
-    color:#8e5d52;
+    color:var(--primary-color);
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:600px) {
     header {
         display: none;
     }
