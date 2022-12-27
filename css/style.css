@@ -136,6 +136,48 @@ main div {
     transform: scale(1.2);
 }
 
+.div-projetos {
+    display: flex;  
+}
+  
+.meus-projetos {
+    background-color: #8e5d52;
+    width: 30%;
+    height: auto;
+    margin: 1rem;
+    padding: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 1px 1px 16px #2f2325;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+.meus-projetos img {
+    width: 100%;
+    height: auto;  
+}
+  
+.meus-projetos button {  
+    background-color: #fff2e7;
+    padding: 8px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+  
+.meus-projetos button:hover {
+    background-color: #C7BCA1;  
+}
+  
+.meus-projetos a {
+    text-decoration: none;
+}
+
 .logo-interesses {
     width: 70px;
     position: relative;
