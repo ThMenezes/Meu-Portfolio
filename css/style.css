@@ -43,7 +43,7 @@ section {
     position: absolute;
     width: 200px;
     aspect-ratio: 1;
-    background-image: url('../imagens/perfil.png');
+    background-image: url('../imagens/avatar.png');
     background-position: center;
     background-size: cover;
     right: 20px;
